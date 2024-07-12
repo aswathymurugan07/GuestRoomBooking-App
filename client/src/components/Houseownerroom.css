@@ -1,0 +1,86 @@
+.room-details-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.room-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.room-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.room-details p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #666;
+}
+
+.room-images {
+    position: relative;
+    overflow: hidden;
+    width: 75%; /* Reduced width */
+    height: 500px; /* Increased height */
+    margin-bottom: 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.room-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .room-details {
+        padding: 15px;
+    }
+
+    .room-details h3 {
+        font-size: 20px;
+    }
+
+    .room-details p {
+        font-size: 14px;
+    }
+
+    .room-images {
+        width: 100%; /* Full width for smaller screens */
+        height: 200px; /* Adjusted height for smaller screens */
+    }
+}
+
+.room-details-container h2 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 20px;
+}

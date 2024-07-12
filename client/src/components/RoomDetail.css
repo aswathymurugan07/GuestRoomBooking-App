@@ -1,0 +1,64 @@
+.room-detail {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .details-container {
+    flex: 2;
+  }
+  
+  .details-container h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  
+  .details-container p {
+    font-size: 18px;
+    margin: 5px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .details-container p strong {
+    font-weight: bold;
+  }
+  
+  .add-to-cart-button,.book-now-button {
+    width: 100px;
+    padding: 8px;
+    background-color:rgb(69, 69, 209);; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin: 0 5px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    
+  }
+  
+  .book-now-button:hover {
+    background-color: #45a049; 
+  }
+  .colr{
+    color: maroon;
+    margin-left: 5px;
+    
+  }

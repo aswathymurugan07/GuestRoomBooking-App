@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+   background-color: rgb(240, 234, 225);
+  color: black;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-logo p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+}
+
+.nav-menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+ 
+  color: black;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+ .dropbtn:focus {
+  background-color: #555;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.product-card{
+  width: 280px; 
+  border: 1px solid rgb(196, 191, 191);
+  padding: 20px;
+  margin: 2pc;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center;
+  
+}
+
+
+.product-card:hover {
+  transform: translateY(-5px); /* Move card up by 5px on hover */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.product-card img{ 
+  width: 250px;
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+.product-card .title{
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  margin-bottom: 1px;
+  height: 30px;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+.product-card .amenity{
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+  height: 30px;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+
+.product-card .description{
+  font-size: 14px;
+  color: #555151;
+  height: 60px; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+}
+.product-card .contact{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card .price{
+  font-weight: bold;
+  color: red;
+  margin-bottom: 10px;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center; 
+}
+
+.add-to-cart-button,.buy-now-button {
+  width: 100px;
+  padding: 8px;
+  background-color:rgb(69, 69, 209);; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin: 0 5px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+}
+
+.add-to-cart-button:hover,
+.buy-now-button:hover {
+  background-color: #45a049; 
+}
+.rooms-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards horizontally */
+  gap: 16px; /* Space between cards */
+}
+
