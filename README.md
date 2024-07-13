@@ -173,7 +173,7 @@ Here’s a simple schema for the guest room booking application using MongoDB:
 ]
 ``
 
-1. Project Setup
+## Project Setup
 
    Clone the Repository:
 
@@ -181,7 +181,7 @@ Here’s a simple schema for the guest room booking application using MongoDB:
     
     cd <your-repo-name>
     
-2. Backend Setup:
+## Backend Setup:
    
    Navigate to the backend directory and install dependencies:
 
@@ -189,14 +189,14 @@ Here’s a simple schema for the guest room booking application using MongoDB:
    
      npm install
 
-  Create a .env file in the backend directory with the following content:
+   Create a .env file in the backend directory with the following content:
 
      .env
      PORT=5000
      MONGO_URI=mongodb://localhost:27017/mern-rooms
      (run node server.js)
 
-3. Frontend Setup:
+## Frontend Setup:
    
      cd ../client
 
